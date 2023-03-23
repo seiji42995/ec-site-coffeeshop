@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.order-confirm-delivery-info {
+  margin: 0 200px 0 200px;
+}
+
+.order-confirm-delivery-datetime {
+  text-align: center;
+}
+
+.order-confirm-delivery-time {
+  margin-right: 10px;
+}
+
+.order-confirm-payment-method {
+  text-align: center;
+}
+
+.order-confirm-payment-method-radio {
+  margin-right: 10px;
+}
+.user_btn {
+  margin: 0 200px 0 200px;
+  display: inline-block; /*ボタンはa要素(インライン要素)のため widhやheightは指定できない。またmarginやpaddingは横のみしか指定できない。今回padding指定したいためにインラインブロック要素に変更する */
+  padding: 8px 24px; /* 上記でインラインブロック要素に下ので上下のpaddingが設定できる */
+  color: green;
+  opacity: 0.8; /* 透明度の設定 */
+  border-radius: 4px; /* ボタンの角を丸くする */
+  text-align: center; /* ボタン名を中央揃えに */
+}
